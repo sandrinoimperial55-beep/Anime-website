@@ -137,13 +137,6 @@ with st.container():
             <p class="subtext" style="font-size:1.1rem;">
                 Your anime and manga world — discover series, watch trailers, upload your own videos, and explore more.
             </p>
-            <p class="subtext">
-                <a href="https://animepahe.pw" target="_blank">Watch anime →</a>
-                &nbsp; | &nbsp;
-                <a href="https://mangaplus.shueisha.co.jp/" target="_blank">Read manga →</a>
-                &nbsp; | &nbsp;
-                <a href="https://www.meta.ai/share/a/18171edd-e894-4cbc-8992-89305162d1f8" target="_blank">Read this self-made manga →</a>
-            </p>
         </div>
         """,
         unsafe_allow_html=True,
@@ -162,7 +155,6 @@ with st.container():
             watch videos, and easily explore their favorite series in one friendly interface.
             """
         )
-        st.markdown("[Explore anime >](https://animepahe.pw)", unsafe_allow_html=True)
 
     with right_col:
         st.markdown('<div class="section-title">Why this website?</div>', unsafe_allow_html=True)
@@ -183,7 +175,6 @@ st.markdown(
     <div class="anime-card">
         <div class="anime-title">Read manga online</div>
         <p>Explore popular manga titles and continue your favorite stories with a manga platform.</p>
-        <a href="https://mangaplus.shueisha.co.jp/" target="_blank">Open MangaPlus →</a>
     </div>
     """,
     unsafe_allow_html=True,
