@@ -194,9 +194,8 @@ anime_list = [
 ]
 
 for anime in anime_list:
-    col2 = st.columns((1))
-    
-    with col2:
+    col = st.columns()
+    with col:
         st.markdown(
             f"""
             <div class="anime-card">
