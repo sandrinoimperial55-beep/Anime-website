@@ -173,39 +173,6 @@ with st.container():
             """
         )
 
-# -----------------------------
-# Anime cards
-# -----------------------------
-st.markdown('<div class="section-title">Recommended anime</div>', unsafe_allow_html=True)
-
-anime_list = [
-    {
-        
-        "title": "Jujutsu Kaisen",
-        "description": "A thrilling story about cursed spirits, powerful fighters, and survival against terrifying supernatural enemies.",
-        "link": "http://www.9jarocks.net/findx?search=kaisen",
-    },
-    {
-        
-        "title": "Demon Slayer",
-        "description": "A heroic adventure filled with powerful breathing techniques, demon battles, and emotional storytelling.",
-        "link": "http://www.9jarocks.net/findx?search=demon+slayer+movie",
-    },
-]
-
-for anime in anime_list:
-    col = st.columns():
-    with col:
-        st.markdown(
-            f"""
-            <div class="anime-card">
-                <div class="anime-title">{anime['title']}</div>
-                <p>{anime['description']}</p>
-                <a href="{anime['link']}" target="_blank">Click for more info →</a>
-            </div>
-            """,
-            unsafe_allow_html=True,
-        )
 
 # -----------------------------
 # Manga section
