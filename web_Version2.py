@@ -194,7 +194,7 @@ anime_list = [
 ]
 
 for anime in anime_list:
-    col = st.columns()
+    col = st.columns():
     with col:
         st.markdown(
             f"""
