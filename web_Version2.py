@@ -255,7 +255,7 @@ with st.container():
         """
         <div class="hero">
             <p class="subtext">
-                <a href="http://127.0.0.1:8502" target="_blank">Contact Me →</a>
+                <a href="https://anime-website-sandrino031111.streamlit.app/" target="_blank">Contact Me →</a>
                 &nbsp; | &nbsp;
             </p>
         </div>
