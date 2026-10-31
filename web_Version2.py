@@ -180,13 +180,13 @@ st.markdown('<div class="section-title">Recommended anime</div>', unsafe_allow_h
 
 anime_list = [
     {
-        "image": "jujutsu.png",
+        
         "title": "Jujutsu Kaisen",
         "description": "A thrilling story about cursed spirits, powerful fighters, and survival against terrifying supernatural enemies.",
         "link": "http://www.9jarocks.net/findx?search=kaisen",
     },
     {
-        "image": "demon.png",
+        
         "title": "Demon Slayer",
         "description": "A heroic adventure filled with powerful breathing techniques, demon battles, and emotional storytelling.",
         "link": "http://www.9jarocks.net/findx?search=demon+slayer+movie",
@@ -194,12 +194,8 @@ anime_list = [
 ]
 
 for anime in anime_list:
-    col1, col2 = st.columns((1, 2))
-    with col1:
-        try:
-            st.image(anime["image"], use_container_width=True)
-        except Exception:
-            st.warning(f"Image not found: {anime['image']}")
+    col2 = st.columns((1))
+    
     with col2:
         st.markdown(
             f"""
